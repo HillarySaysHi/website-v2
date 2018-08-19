@@ -28,7 +28,7 @@
     margin-bottom:10px;
 }
 .today {
-    color: #8AC007;
+    color: #f6b6ea;
 }
 .opening-hours-table tr td:first-child {
     font-weight:bold;
@@ -44,15 +44,15 @@
     content:" open during these hours:";
 }
 .open {
-    color:green;
+    color:#f6b6ea;
 }
 .open:after {
     content:" Open";
-    color: #6C0;
+    color: #f6b6ea;
 }
 .closed:after {
     content:" Closed";
-    color: red;
+    color: #661b53;
 }
 .opening-hours-table tr td {
     padding:5px;
