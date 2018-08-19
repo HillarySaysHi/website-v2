@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!-- <link href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600,300,700" rel="stylesheet"> -->
+    <link href="https://fonts.googleapis.com/css?family=Comfortaa" rel="stylesheet">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Hillary Salon</title>
+    <meta name="description" content="Hillary Salon Landing Page">
+    <link rel="shortcut icon" href="img/H-hillary-logo.png" type="image/x-icon">
+    <link rel="icon" href="img/H-hillary-logo.png" type="image/x-icon">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN"
+        crossorigin="anonymous">
+    <link href="css/magnific-popup.min.css" rel="stylesheet">
+    <link href="css/style.min.css" rel="stylesheet">
+</head>
+
+<body>
+    <header class="masthead-section">
+        <video autoplay loop id="bgvid-hero">
+            <source src="video/hillary-youtube.mp4" type="video/mp4">
+            <source src="video/hillary-youtube.webm" type="video/webm"> </video>
+
+        <nav class="navbar navbar-default">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-navbar-collapse-1" aria-expanded="false">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="">
+                        <img id="logo-nav" class="logo-nav img-responsive" alt="logo" src="img/hillary-logo.png">
+                        <img class="logo-head img-responsive" alt="logo" src="img/hillary-logo.png">
+                    </a>
+                </div>
+                <div class="collapse navbar-collapse" id="bs-navbar-collapse-1">
+                    <ul class="nav navbar-nav nav-left">
+                        <li>
+                            <a href="#chooseUs">Features</a>
+                        </li>
+                        <li>
+                            <a href="#bio">About</a>
+                        </li>
+                        <li>
+                            <a href="#contact">Contact</a>
+                        </li>
+                    </ul>
+                    <ul class="nav navbar-nav navbar-right">
+                        <li>
+                            <a href="#booking">
+                                <i class="fa fa-sign-in"></i> booking</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <div class="welcome-message text-center">
+            <button onclick="enableMute()" type="button" class="btn btn-primary">Mute sound</button>
+            <div class="yt-play-btn">
+                <a href="https://www.youtube.com/watch?v=45zYANoAshY" onclick="enableMute();return false;" class="play litebox-hero">
+                    <img src="img/32px-YouTube_play_button_circular_(2013-2017).svg.png" alt="play"> </a>
+                <a href="">
+                    <img id="video_overlays" class="pulse" src="img/H-Hillary-Bigger-logo.png" alt="">
+                </a>
+            </div>
+        </div>
+        <section id="section04" class="demo">
+            <a href="#chooseUs">
+                <span></span>
+            </a>
+        </section>
+    </header>
+    <section id="chooseUs" class="benefits section-spacing text-center">
+        <div class="container">
+            <header class="section-header text-center">
+              <h1>Coming Soon To Ranelagh Village</h1>
+                <p>59 Ranelagh Dublin 6 D06 E2C2</p>
+                <h3>What we do...</h3>
+            </header>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-3 col-xs-6">
+                        <div class="dummy"></div>
+                        <a href="cut.html" class="thumbnail white-text">
+                            <p>CUT</p>
+                            <img class="feature-img" src="img/scissors.svg" alt="benefits of product">
+                        </a>
+                    </div>
+                    <div class="col-md-3 col-xs-6">
+                        <div class="dummy"></div>
+                        <a href="blowdry.html" class="thumbnail white-text">
+                            <p>BLOWDRY</p>
+                            <img class="feature-img" src="img/Blowdry-1.svg" alt="benefits of product">
+                        </a>
+                    </div>
+                    <div class="col-md-3 col-xs-6">
+                        <div class="dummy"></div>
+                        <a href="nails.html" class="thumbnail white-text">
+                            <p>NAILS</p>
+                            <img class="feature-img" src="img/nails.svg" alt="benefits of product">
+                        </a>
+                    </div>
+                    <div class="col-md-3 col-xs-6">
+                        <div class="dummy"></div>
+                        <a href="hair-color.html" class="thumbnail white-text">
+                            <p>HAIR COLOUR</p>
+                            <img class="feature-img" src="img/paint-tube.svg" alt="benefits of product">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="booking section-spacing text-center" id="booking">
+        <div class="container">
+            <div class="row">
+                <header class="section-header text-center">
+                    <h2>booking</h2>
+                    <h3>Please enter your details</h3>
+                </header>
+                <div class="row"></div>
+            </div>
+        </div>
+    </section>
+    <section class="bio-section section-spacing text-center" id="bio">
+        <div class="container">
+            <header class="section-header">
+                <h3>HILLARY’s bio</h3>
+                <p>Person who created this awesome salon</p>
+            </header>
+            <div class="row">
+                <div class="col-md-12">
+                    <p>When I was a little girl I always wanted to make people feel beautiful. I made that happen through hard
+                        work and energy. Working all around the world with the best of the best. Now I want to share my knowledge
+                        in a beautiful environment, surrounding myself with a great team.</p>
+                    <p>Have a question? Give us a call
+                        <a href="tel:+"> 01 123 4569</a>.</p>
+                    <br>
+                    <a href="https://www.linkedin.com/in/hilary-o-reilly-22363a7b/" target="_blank" class="btn">LinkedIn</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="contact section-spacing text-center" id="contact">
+        <div class="container">
+            <header class="section-header">
+                <h2>Contact Us</h2>
+                <section class="openinghours">
+                    <div class="openinghourscontent section">
+                        <div class="header">
+                            <h2>Opening hours</h2>
+                            <span id="open-status">
+                                <small class="openorclosed">We are</small>
+                            </span>
+                        </div>
+                        <table class="opening-hours-table">
+                            <tr id="Monday" itemprop="openingHours" title="Open Monday at 9am to 6pm">
+                                <td>Monday</td>
+                                <td class="opens">09:30</td>
+                                <td>-</td>
+                                <td class="closes">18:00</td>
+                            </tr>
+                            <tr id="Tuesday" itemprop="openingHours" title="Open Tuesday at 9am to 6pm">
+                                <td>Tuesday</td>
+                                <td class="opens">09:30</td>
+                                <td>-</td>
+                                <td class="closes">20:00</td>
+                            </tr>
+                            <tr id="Wednesday" itemprop="openingHours" title="Open Wednesday at 9am to 6pm">
+                                <td>Wednesday</td>
+                                <td class="opens">09:30</td>
+                                <td>-</td>
+                                <td class="closes">20:00</td>
+                            </tr>
+                            <tr id="Thursday" itemprop="openingHours" title="Open Thursday at 9am to 8pm">
+                                <td>Thursday</td>
+                                <td class="opens">09:30</td>
+                                <td>-</td>
+                                <td class="closes">20:00</td>
+                            </tr>
+                            <tr id="Friday" itemprop="openingHours" title="Open Friday at 9am to 6pm">
+                                <td>Friday</td>
+                                <td class="opens">09:30</td>
+                                <td>-</td>
+                                <td class="closes">18:00</td>
+                            </tr>
+                            <tr id="Saturday" itemprop="openingHours" title="Open Saturday at 10am to 6pm">
+                                <td>Saturday</td>
+                                <td class="opens">9:00</td>
+                                <td>-</td>
+                                <td class="closes">05:30</td>
+                            </tr>
+                            <tr id="Sunday" itemprop="openingHours" title="Closed Sunday">
+                                <td>Sunday</td>
+                                <td class="opens">Closed</td>
+                            </tr>
+                        </table>
+                        <button style="cursor: pointer;" title="Make an Apointment Online" data-appointlet="u387">Make an Apointment Online</button>
+                    </div>
+                </section>
+                <p class="contact-details">
+                    <ul>
+                        <li>
+                            <i class="fa fa-map-marker"></i> 59 Ranelagh Dublin 6 D06 E2C2</li>
+                        <li>
+                            <i class="fa fa-phone"></i> 01-123-4567</li>
+                    </ul>
+                </p>
+            </header>
+        </div>
+        <div class="map">
+            <div id="map-canvas"></div>
+        </div>
+    </section>
+    <footer class="site-footer section-spacing text-center">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <small>&copy;
+                        <script>document.write(new Date().getFullYear())</script> Hillary. All rights reserved.</small>
+                </div>
+                <div class="col-md-6">
+                    <ul class="social">
+                        <li>
+                            <a href="https://twitter.com/" target="_blank">
+                                <i class="fa fa-twitter"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.facebook.com/" target="_blank">
+                                <i class="fa fa-facebook"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.instagram.com/" target="_blank">
+                                <i class="fa fa-instagram"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.linkedin.com/in/hilary-o-reilly-22363a7b/" target="_blank">
+                                <i class="fa fa-linkedin"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="mailto:hillarysayshi@gmail.com" target="_blank">
+                                <i class="fa fa-envelope"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="js/jquery-2.1.4.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/waypoints.min.js"></script>
+    <script src="js/waypoints-sticky.min.js"></script>
+    <script src="js/jquery.magnific-popup.min.js"></script>
+    <script src="js/script.min.js"></script>
+    <script src="js/opening-hours.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyALevkrc08Ax14PFTn85gNY8Buqpv1X6Q8&callback=initMap"></script>
+    <script src="js/google-map.js"></script>
+    <script>var vid = document.getElementById("bgvid-hero"); function enableMute() { vid.muted = true; }</script>
+</body>
+
+</html>
